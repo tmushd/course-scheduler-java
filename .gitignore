@@ -1,0 +1,20 @@
+.DS_Store
+
+# Java build output
+**/build/
+**/build-cli/
+**/dist/
+**/*.class
+**/*.jar
+
+# NetBeans user-local files
+**/nbproject/private/
+
+# Runtime logs
+**/derby.log
+**/hs_err_pid*.log
+
+# Derby runtime lock/temp files
+**/db.lck
+**/dbex.lck
+**/tmp/
