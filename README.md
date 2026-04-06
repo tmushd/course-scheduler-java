@@ -2,6 +2,19 @@
 
 A Java Swing desktop application for semester planning, enrollment, and waitlist management, backed by Apache Derby.
 
+## At A Glance
+
+| Area | What this project does |
+| --- | --- |
+| App type | Java Swing desktop course scheduling system |
+| Users | Supports both administrator and student workflows |
+| Core workflows | semester setup, class creation, enrollment, waitlisting, and roster management |
+| Data layer | Apache Derby database with JDBC-backed query services |
+| Logic | Enforces seat limits and promotes waitlisted students automatically |
+| Architecture | UI -> query service layer -> JDBC connection -> Derby |
+| Tooling | NetBeans/Ant structure plus local setup scripts |
+| CI | GitHub Actions compile verification |
+
 ## Why this is portfolio-ready
 - Clear separation of concerns between UI (`MainFrame`), query services (`*Queries`), and data models (`*Entry`).
 - End-to-end workflows for both administrator and student operations.
